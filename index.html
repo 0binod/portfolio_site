@@ -1,115 +1,126 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Binod Khadka | Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
+body {
+    font-family: sans-serif;
+}
 
-        header h1 {
-            margin: 0;
-        }
+body, html {
+    height: 100%;
+}
 
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
+header {
+    background-color: #f4f4f4;
+}
 
-        nav ul li {
-            display: inline;
-            margin-right: 1rem;
-        }
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
+section {
+    min-height: 70%;
+}
 
-        section {
-            padding: 2rem;
-            max-width: 800px;
-            margin: 0 auto;
-        }
+footer {
+    background-color: #333;
+    text-align: center;
+    color: white;
+}
 
-        section h2 {
-            margin-top: 0;
-        }
+#skills {
+    background-color: #f8f9fa;
+}
 
-        .project {
-            margin-bottom: 2rem;
-        }
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
 
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Binod Khadka</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+.skill p {
+    font-weight: 600;
+}
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Binod Khadka, a software development with 3 years of experience and a passion for database management and web development.</p>
-    </section>
+.progress {
+    height: 20px;
+}
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Software developer</li>
-            <li>Database Management</li>
-            <li>SQL</li>
-            <li>HTML & CSS</li>
-            <li>Social Media Content Creation</li>
-        </ul>
-    </section>
+.progress-bar {
+    line-height: 20px;
+}
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of your project.</p>
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of your project.</p>
-        </div>
-    </section>
+footer {
+    background-color: #343a40;
+}
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:infobinodkhadka">infobinodkhadka@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/0binod-khadka" target="_blank">linkedin.com/in/Binod-khadka</a></p>
-    </section>
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
 
-    <footer>
-        <p>&copy; Binod Khadka. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+footer a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    footer .row {
+        text-align: center;
+    }
+
+    footer .col-md-6 {
+        margin-bottom: 15px;
+    }
+}
+
+    /* Sticky Navbar */
+    .navbar {
+        transition: background-color 0.3s ease;
+      }
+  
+      .navbar-brand {
+        font-size: 1.5rem;
+        color: #007bff;
+      }
+  
+      .nav-link {
+        margin-left: 1rem;
+        font-weight: 500;
+        transition: color 0.3s ease;
+      }
+  
+      .nav-link:hover, .nav-link.active {
+        color: #0056b3;
+      }
+  
+      /* Smooth Scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+  
+      /* Highlight active link */
+      .nav-link.active {
+        color: #0056b3;
+        font-weight: 700;
+      }
+
+nav {
+    background-color: #333;
+}
+
+footer {
+    background-color: #333;
+
+}
+
+nav button {
+    background-color: white;
+}
