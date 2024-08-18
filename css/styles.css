@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+header {
+    background-color: #f4f4f4;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    min-height: 70%;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    color: white;
+}
+
+#skills {
+    background-color: #f8f9fa;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.skill p {
+    font-weight: 600;
+}
+
+.progress {
+    height: 20px;
+}
+
+.progress-bar {
+    line-height: 20px;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    footer .row {
+        text-align: center;
+    }
+
+    footer .col-md-6 {
+        margin-bottom: 15px;
+    }
+}
+
+    /* Sticky Navbar */
+    .navbar {
+        transition: background-color 0.3s ease;
+      }
+  
+      .navbar-brand {
+        font-size: 1.5rem;
+        color: #007bff;
+      }
+  
+      .nav-link {
+        margin-left: 1rem;
+        font-weight: 500;
+        transition: color 0.3s ease;
+      }
+  
+      .nav-link:hover, .nav-link.active {
+        color: #0056b3;
+      }
+  
+      /* Smooth Scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+  
+      /* Highlight active link */
+      .nav-link.active {
+        color: #0056b3;
+        font-weight: 700;
+      }
+
+nav {
+    background-color: #333;
+}
+
+footer {
+    background-color: #333;
+
+}
+
+nav button {
+    background-color: white;
+}
